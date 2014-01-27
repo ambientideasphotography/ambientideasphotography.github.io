@@ -1,0 +1,4 @@
+name: Ambient Ideas Photography
+markdown: redcarpet
+pygments: true
+permalink: /blog/index.php/:year/:month/:day/:title/
