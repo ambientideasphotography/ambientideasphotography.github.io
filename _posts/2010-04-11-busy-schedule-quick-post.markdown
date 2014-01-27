@@ -8,7 +8,7 @@ author_login: admin
 author_email: info@ambientideasphotography.com
 wordpress_id: 126
 wordpress_url: http://ambientideasphotography.com/blog/?p=126
-date: 2010-04-11 06:37:05.000000000 -06:00
+date: 2010-04-11
 categories:
 - Showcase
 - Tips &amp; Techniques

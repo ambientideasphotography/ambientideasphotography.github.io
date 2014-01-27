@@ -8,7 +8,7 @@ author_login: admin
 author_email: info@ambientideasphotography.com
 wordpress_id: 181
 wordpress_url: http://ambientideasphotography.com/blog/?p=181
-date: 2012-01-01 22:29:31.000000000 -07:00
+date: 2012-01-01
 categories:
 - Camera Gear
 tags: []

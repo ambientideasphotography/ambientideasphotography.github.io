@@ -8,7 +8,7 @@ author_login: admin
 author_email: info@ambientideasphotography.com
 wordpress_id: 40
 wordpress_url: http://ambientideasphotography.com/blog/?p=40
-date: 2010-02-24 07:09:03.000000000 -07:00
+date: 2010-02-24
 categories:
 - Tips &amp; Techniques
 tags:

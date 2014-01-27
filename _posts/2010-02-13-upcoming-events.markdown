@@ -8,7 +8,7 @@ author_login: admin
 author_email: info@ambientideasphotography.com
 wordpress_id: 4
 wordpress_url: http://ambientideasphotography.com/blog/?p=4
-date: 2010-02-13 20:28:33.000000000 -07:00
+date: 2010-02-13
 categories:
 - Presentations
 tags:

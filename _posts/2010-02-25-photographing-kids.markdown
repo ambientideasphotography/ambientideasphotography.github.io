@@ -8,7 +8,7 @@ author_login: admin
 author_email: info@ambientideasphotography.com
 wordpress_id: 45
 wordpress_url: http://ambientideasphotography.com/blog/?p=45
-date: 2010-02-25 07:35:10.000000000 -07:00
+date: 2010-02-25
 categories:
 - Portraiture
 tags:

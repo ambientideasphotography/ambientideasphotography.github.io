@@ -8,7 +8,7 @@ author_login: admin
 author_email: info@ambientideasphotography.com
 wordpress_id: 32
 wordpress_url: http://ambientideasphotography.com/blog/?p=32
-date: 2010-02-21 22:39:17.000000000 -07:00
+date: 2010-02-21
 categories:
 - Showcase
 tags:
