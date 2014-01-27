@@ -1,0 +1,264 @@
+.container{
+	width:905px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	/*background-color:#009933;*/
+}
+
+.bodyBG{
+	background-image: url(../photos/test.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Cake{
+	background-image: url(../photos/wedding/55.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Portraiture{
+	background-image: url(../photos/portraiture/01.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Wedding{
+	background-image: url(../photos/wedding/14.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Wedding2{
+	background-image: url(../photos/wedding/25.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Wedding3{
+	background-image: url(../photos/wedding/26.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Wedding4{
+	background-image: url(../photos/wedding/14.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+
+.bodyBG-Architecture{
+	background-image: url(../photos/architecture/023.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Architecture2{
+	background-image: url(../photos/architecture/008.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+
+.bodyBG-Architecture3{
+	background-image: url(../photos/architecture/004.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+
+
+.bodyBG-Fineart{
+	background-image: url(../photos/fineart/landscape/001.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Fineart2{
+	background-image: url(../photos/fineart/skyscape/002.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+.bodyBG-Fineart3{
+	background-image: url(../photos/fineart/lifeforms/007.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+
+#transbox {
+	
+	width: 850px;
+	/*margin: 0 50px;*/
+	background-color: #fff;
+	/*border: 2px solid black;*/
+	filter:alpha(opacity=80);
+	opacity: 0.8;
+	-moz-opacity:0.8;
+	}
+	
+/* This is the container which set text to solid color.
+position: relative used for IE */	
+#transbox div {
+	padding: 15px;
+	font-weight: bold;
+	color: #000;
+	filter:alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity:1;
+	position: relative;
+	}
+	
+	
+	
+.navigation{
+	width:714px;
+	float:right;
+	
+	font-size:12px;
+	margin-top:25px;
+	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+}
+	
+	
+	
+
+
+.header{
+	clear:both;
+}
+
+a {
+	text-decoration: none;
+	color: #47362c;
+	font-size: 11px;
+	
+	padding-bottom:5px;
+	
+}
+
+a:hover {
+	color: #C8355D;
+	/*font-weight:bolder;*/
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #ffffff;
+	
+	font-weight:bolder;
+	
+	padding-bottom:5px;
+	
+}
+
+.navigation a:hover {
+	
+	color: #cccccc;
+	/*padding-left:10px;*/
+
+	font-weight:bolder;
+	
+	padding-bottom:5px;
+	/*font-weight:bolder;*/
+}
+
+h1{
+	font-size:22px;
+	font-weight:normal;
+	margin-top:0px;
+	margin-bottom:0;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-variant: small-caps;	
+}
+
+h2{
+	font-size:16px;
+	font-weight:normal;
+	margin-top:0px;
+	margin-bottom:0;
+	/*text-align:left;*/
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-variant: small-caps;	
+	
+	text-align:left;
+}
+
+p{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.entrance{
+	font-size:11px;
+	font-weight:bold;
+	
+	text-align:right;
+	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+ul{
+	font-size:11px;
+	font-weight:normal;
+	color:#000000;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.footer{
+	margin-right:auto;
+	margin-left:auto;
+	width:905px;
+	text-align: right;
+}
+
+.proofing{
+	font-family:"Times New Roman", Times, serif !important;
+	font-size:40px !important;
+}

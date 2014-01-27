@@ -1,0 +1,170 @@
+body{
+	/*Pink
+	background-color:#A03A53;*/
+	background-color:#B2C23C;
+	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	color:#47362c;
+}
+
+.top{
+	background-image: url(../images_green/top.jpg);
+	background-repeat: no-repeat;
+	width:905px;
+	height:24px;
+}
+
+
+.logo{
+	background-image: url(../images_green/logo.jpg);
+	background-repeat: no-repeat;
+	
+	
+	float:left;
+	
+	width:184px;
+	height:65px;
+}
+
+.left {
+	background-image: url(../images_green/left.jpg);
+	background-repeat: no-repeat;
+	width:850px;
+	height:526px;
+	
+	float:left;
+	
+	padding-left:35px;
+	
+	
+	text-align:right;
+	
+	
+	background-color:#ffffff;
+}
+
+
+.right {
+	background-image: url(../images_green/right.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	width:20px;
+	height:526px;
+	
+	float:right;
+	
+
+}
+
+.middle{
+	width:971px;
+	height:526px;
+}
+
+.bottom{
+	clear:both;
+	
+	background-image: url(../images_green/bottom.jpg);
+	background-repeat: no-repeat;
+	width:905px;
+	height:20px;
+}
+
+.container{
+	width:905px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	/*background-color:#009933;*/
+}
+
+.bodyBG{
+	background-image: url(../photos/test.jpg);
+	background-repeat: no-repeat;
+	
+	width:850px;
+	height:526px;
+	
+}
+
+
+#transbox {
+	
+	width: 850px;
+	/*margin: 0 50px;*/
+	background-color: #fff;
+	/*border: 2px solid black;*/
+	filter:alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity:0.7;
+	}
+	
+/* This is the container which set text to solid color.
+position: relative used for IE */	
+#transbox div {
+	padding: 25px;
+	font-weight: bold;
+	color: #000;
+	filter:alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity:1;
+	position: relative;
+	}
+	
+	
+	
+.navigation{
+	width:714px;
+	float:right;
+	
+	font-size:14px;
+	margin-top:25px;
+}
+	
+	
+	
+
+
+.header{
+	clear:both;
+}
+
+a {
+	text-decoration: none;
+	color: #47362c;
+	padding-left:10px;
+	font-size: 11px;
+	
+	padding-bottom:5px;
+	
+}
+
+a:hover {
+	color: #C8355D;
+	/*font-weight:bolder;*/
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #ffffff;
+	padding-left:10px;
+	font-size: 16px;
+	font-weight:bolder;
+	
+	padding-bottom:5px;
+	
+}
+
+.navigation a:hover {
+	text-decoration:underline;
+	
+	color: #ffffff;
+	padding-left:10px;
+	font-size: 16px;
+	font-weight:bolder;
+	
+	padding-bottom:5px;
+	/*font-weight:bolder;*/
+}

@@ -1,0 +1,94 @@
+.bodyTile {
+	background-image: url(../images/middle.jpg);
+	background-repeat: repeat-y;
+}
+
+.topStandard{
+	background-image: url(../images/top.jpg);
+	background-repeat: no-repeat;
+}
+
+.bottomStandard{
+	background-image: url(../images/bottom.jpg);
+	background-repeat: no-repeat;
+}
+
+body{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	color:#47362c;
+}
+
+.bodyTilePink {
+	background-image: url(../images/middle_pink.jpg);
+	background-repeat: repeat-y;
+}
+
+.topPink{
+	background-image: url(../images/top_pink.jpg);
+	background-repeat: no-repeat;
+}
+
+.bottomPink{
+	background-image: url(../images/bottom_pink.jpg);
+	background-repeat: no-repeat;
+}
+
+#copyright {
+	clear: both;
+	text-align: right;
+	font-size: 10px;
+	padding-right: 10px;
+}
+
+.navigationTop{
+	height:80px;
+	width:1px;
+}
+
+
+.navigationMain{
+	
+	color: #47362c;
+	padding-left:10px;
+	font-size: 12px;
+	
+	padding-bottom:10px;
+	padding-left: 200px;
+	
+	text-align:center;
+}
+
+.navigationMain a {
+	text-decoration: none;
+	color: #47362c;
+	font-weight:bolder;
+	background-repeat: no-repeat;
+	padding:5px;
+}
+
+.navigationMain a:hover {
+	background-image: url(../images/nav_underline.jpg);
+	background-position: center;
+}
+
+.navigationSide{
+	padding-right:5px;
+}
+
+.navigationSide a {
+	text-decoration: none;
+	color: #47362c;
+	display: block;
+	padding-left:10px;
+	font-size: 10px;
+	
+	padding-bottom:5px;
+	
+}
+
+a:hover {
+	color: #C8355D;
+	/*font-weight:bolder;*/
+}
