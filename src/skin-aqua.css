@@ -1,0 +1,73 @@
+/* Copyright Dynarch.com, 2003-2005.  All Rights Reserved. */
+
+@import url("hmenu.css");
+
+/* horizontal parts */
+div.dynarch-horiz-menu table,
+div.dynarch-horiz-menu {
+	/*border-color: #ffffff;*/
+	border: 0px;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 11px;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+div.dynarch-horiz-menu table tr td.hover {
+	color: #ffffff;
+	/*font-weight: bold;*/
+	
+}
+
+div.dynarch-horiz-menu table tr td.active {
+	font-weight: bold;
+}
+
+div.dynarch-horiz-menu table tr td.pressed { color: #ffffff; }
+
+div.dynarch-horiz-menu table tr td.pressed table {
+	color: #ffffff;
+}
+
+div.dynarch-horiz-menu table tr td.separator div {
+	border-left-color: #ddd2df; border-right: none; /*margin: 3px 3px;*/
+}
+
+
+/* vertical parts */
+
+div.dynarch-popup-menu div.a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-color:#ffffff;
+	padding: 4px 0px;;
+}
+
+div.dynarch-popup-menu {
+  padding: 0px;
+  background-color:#ffffff;
+  background: transparent url("img/aqua/bullet.jpg") no-repeat;
+}
+
+div.dynarch-popup-menu tr.item.hover { 
+	/*background highlight color for menu item*/
+	background-color: #ffffff;
+	color: #000000;
+}
+
+div.dynarch-popup-menu tr.item.active {
+	background-color:#000000;
+	/*background highlight color for menu item*/
+	background-color: #ffffff;
+}
+
+div.dynarch-popup-menu tr.disabled td.label { 
+	color: #000000; 
+}
+
+div.dynarch-popup-menu tr.item td.arrow div { 
+	width: 11px; background: transparent url("img/aqua/rarrow.gif") no-repeat 0% 50%; 
+}
+
+div.dynarch-popup-menu tr.hover td.arrow div,
+div.dynarch-popup-menu tr.active td.arrow div { background: transparent url("img/aqua/rarrow-hover.gif") no-repeat 0% 50%; }
