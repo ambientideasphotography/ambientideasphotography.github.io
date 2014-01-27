@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="google-site-verification" content="TrEpC6q1yfvQNGWZsAlwiAtIrVa-zxzLv0rfub8TvwY" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ambient Ideas Photography : Denver Photography Services</title>
+<!-- InstanceEndEditable -->
+<link href="stylesheets/web-standard.css" rel="stylesheet" type="text/css" />
+
+<!---Google API Hosted jQuery--->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="javascript/jquery/jfeed/build/dist/jquery.jfeed.pack.js"></script>
+					<script type="text/javascript">
+					
+						$(document).ready(function(){
+							jQuery.getFeed({
+							  url: 'http://ambientideasphotography.com/blog/?feed=rss',
+							  success: function(feed) {
+							  
+								/*jQuery('#result').append('<h2>'
+								+ '<a href="'
+								+ feed.link
+								+ '">'
+								+ feed.title
+								+ '</a>'
+								+ '</h2>');*/
+								
+								var html = '';
+								
+								for(var i = 0; i < feed.items.length && i < 3; i++) {
+								
+								    var item = feed.items[i];
+								    
+								    html += '<h3>'
+								    + '<a href="'
+								    + item.link
+								    + '">'
+								    + item.title
+								    + '</a>'
+								    + '</h3>';
+								    
+								    html += '<div class="updated">'
+								    + item.updated
+								    + '</div>';
+								    
+								    html += '<div>'
+								    + item.description.substring(0,100)
+								    + '...'
+								    + '</div>';
+								    
+								    html += '<p>'
+								    + '<a href="'
+								    + item.link
+								    + '">'
+								    + 'Read More...'
+								    + '</a>'
+								    + '</p>';
+								}
+								
+								jQuery('#result').append(html);
+							  }    
+						    });
+						});
+					</script>
+
+<!-- InstanceBeginEditable name="head" -->
+
+<!--Blog Feeed-->
+					
+					
+					
+<!--Photo CYcling-->
+<script type="text/javascript" src="javascript/jquery/jquery.cycle/jquery.cycle.all.min.js"></script>
+			
+			<script type="text/javascript">
+			$(document).ready(function() {
+			    $('#introPhotos').cycle({
+					fx: 'fade'
+				});
+			});
+			</script>
+					
+					
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div class="page">
+	
+	<div class="site-navigation">
+	
+		<!-- InstanceBeginEditable name="NavOnOff0" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/services/">
+					<div>Info</div>
+					<span>Our Services</span>
+				</a>
+		</div>
+	
+		<!-- InstanceBeginEditable name="NavOnOff1" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/portfolios/">
+					<div>Portfolios</div>
+					<span>View my Work</span>
+				</a>
+		</div>
+		
+		<!-- InstanceBeginEditable name="NavOnOff2" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/blog/">
+					<div>Blog</div>
+					<span>Events and Tips</span>
+				</a>
+		</div>
+		
+		<!-- InstanceBeginEditable name="NavOnOff3" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/training/">
+					<div>Training</div>
+					<span>Join the Team</span>
+				</a>
+		</div>
+		
+		
+		
+		<a href="/index.html"><div class="logo"></div></a>
+	</div>
+	
+	<div class="columnLeft">
+	
+		<!-- InstanceBeginEditable name="Content Area" -->
+		
+			
+			<div class="box boxPhoto">
+				<div id="introPhotos">
+					<div><img src="images/boxPhoto/weddings/large/01.jpg" width="550" height="348" alt="" /></div>
+					
+					<div><img src="images/boxPhoto/fine-art/large/01.jpg" width="550" height="348" alt="" /></div>
+					
+					<div><img src="images/boxPhoto/realestate/large/10.jpg" width="550" height="348" alt="" /></div>
+					
+					<div><img src="images/boxPhoto/weddings/large/02.jpg" width="550" height="348" alt="" /></div>
+					
+					<div><img src="images/boxPhoto/fine-art/large/12.jpg" width="550" height="348" alt="" /></div>
+					
+					<div><img src="images/boxPhoto/realestate/large/28.jpg" width="550" height="348" alt="" /></div>
+					
+					<div><img src="images/boxPhoto/weddings/large/03.jpg" width="550" height="348" alt="" /></div>
+				</div>
+				
+				<h1>Artistic, Visionary, and One-of-a-Kind Imagery</h1>
+				
+				<p>
+					Ambient Ideas Photographer Jordan McCullough captures a wide variety of imagery, each with a  style and perspective that captures the moment. Explore current services on the <a href="portfolios">Info</a> page and browse showcases of images in the <a href="/portfolios/">Portfolios</a> page.
+				</p>
+			</div>
+		
+		
+		<!-- InstanceEndEditable -->
+
+	</div>
+	
+	
+	<div class="columnRight">	
+		<div class="boxIntro">
+				<h2>Get in Touch</h2>
+				<p>
+				+1 720-249-2766<br />
+				<a href="mailto:Info@AmbientIdeasPhotography.com">Info@AmbientIdeasPhotography.com</a><br />				
+				<a href="https://twitter.com/ambientphoto" target="_blank">Follow me on Twitter</a>
+				</p>
+			
+		</div>
+		
+		<div class="boxInfo">
+			
+			
+			<div class="">
+			
+				<h2><a href="/blog/">From the Blog</a></h2>
+
+				<div id="result" />
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="clearer"></div>
+
+<div class="footer">
+	<div class="copyright">Copyright &copy; 2010 Jordan McCullough &amp; Ambient Ideas Photography</div>
+</div>
+
+
+
+<!-- Google analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-90707-12");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

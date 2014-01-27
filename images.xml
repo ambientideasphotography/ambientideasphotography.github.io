@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+	<album title="Weddings" description="Click here for the portfolio of wedding photography." lgPath="images/Weddings/">
+		<img src="m001.jpg" caption=" "  />
+		<img src="_y0l5633.jpg" caption=" "  />
+		<img src="_y0l5331.jpg" caption=" "  />
+		<img src="_y0l5442 horizontal.jpg" caption=" "  />
+		<img src="_y0l5632.jpg" caption=" "  />	
+		<img src="m-000.jpg" caption=" "  />
+		<img src="MC_0171.jpg" caption=" "  />
+		<img src="MC_0205.jpg" caption=" "  />
+		<img src="MC_0221.jpg" caption=" "  />
+		<img src="MC_0357.jpg" caption=" "  />
+		<img src="MC_0362.jpg" caption=" "  />
+		<img src="MC_0326.jpg" caption=" "  />
+		<img src="MC_0513.jpg" caption=" "  />
+		<img src="MC_0591.jpg" caption=" "  />
+		<img src="z001.jpg" caption=" "  />
+		<img src="z002.jpg" caption=" "  />
+		<img src="001.jpg" caption=" "  />
+		<img src="005.jpg" caption=" "  />
+		<img src="010.jpg" caption=" "  />
+		<img src="j-001.jpg" caption=" "  />
+		<img src="j-003.jpg" caption=" "  />
+		
+	</album>
+	
+	<album title="Children" description="Click here for the portfolio of children's portraiture and documentary style images." lgPath="images/Kids/">
+		<img src="001.jpg" caption=" " />
+		<img src="002.jpg" caption=" " />
+		<img src="004.jpg" caption=" " />
+<img src="003.jpg" caption=" " />
+		<img src="009.jpg" caption=" " />
+		<img src="MC_0095.jpg" caption=" " />
+		<img src="MC_0769.jpg" caption=" " />
+		
+		
+		
+	</album>
+</gallery>

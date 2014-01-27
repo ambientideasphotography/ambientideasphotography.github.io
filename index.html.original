@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Untitled Document</title>
+<link href="css/web.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+<script type="text/javascript" src="showit.js"></script>
+<script type="text/javascript">
+<!--
+$(document).ready(function() {
+	showitplayer('500','590','yes'); // (width,height,showit_big)
+});
+//-->
+</script>
+
+
+<style type="text/css">
+
+#showit {
+width:590px;		/* swf width */
+height:500px;		/* swf height */
+position:relative;
+margin:0;
+padding:0;
+}
+
+.showit_error {
+/*margin:20px;*/
+/*border:2px solid #990000;
+padding:20px;*/
+color:#990000;
+background-color:#cc7f7f;
+font-size:12px;
+text-align:center;
+}
+.showit_error a:link, .showit_error a:visited {
+color:#FFFFFF;
+text-decoration:underline;
+}
+.showit_error a:hover, .showit_error a:active {
+color:#FFFFFF;
+text-decoration:none;
+background-color:#990000;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<div id="content">
+	
+	<div id="navigation">
+		<a href="information.html">information</a>  |  <a href="journal.html">journal</a>  |  <a href="contact.html">contact</a>
+	</div>
+	
+
+
+	  
+	  
+	  <div id="showit" style="margin-left:20px;margin-top:40px;">
+		<div class="showit_error">
+		  <p>To view this slideshow you need the Flash Player installed and JavaScript enabled.</p>
+		  <p><a href="http://macromedia.com/go/getflashplayer/" target="_blank">Click here to download the latest Flash Player</a>.</p>
+		</div>
+	  </div>
+	  
+</div>
+
+</body>
+</html>

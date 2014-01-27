@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portfolio>
+	<header>1544 S. Milwaukee</header>
+
+	<panorama>
+		<title>Front</title>
+		<link>http://www.ambientideasphotography.com/iret/09220844sg/images/front.jpg</link>
+		<about>Front</about>
+	</panorama>
+
+
+	<panorama>
+		<title>Entry</title>
+		<link>http://www.ambientideasphotography.com/iret/09220844sg/images/entry.jpg</link>
+		<about>Entry</about>
+	</panorama>
+	
+	<panorama>
+		<title>Dining</title>
+		<link>http://www.ambientideasphotography.com/iret/09220844sg/images/hall.jpg</link>
+		<about>hall</about>
+	</panorama>
+
+	<panorama>
+		<title>Great Room</title>
+		<link>http://www.ambientideasphotography.com/iret/09220844sg/images/great.jpg</link>
+		<about>Great Room</about>
+	</panorama>
+	
+	<panorama>
+		<title>Bed</title>
+		<link>http://www.ambientideasphotography.com/iret/09220844sg/images/bed.jpg</link>
+		<about>Master Bed</about>
+	</panorama>
+	
+	<panorama>
+		<title>Deck</title>
+		<link>http://www.ambientideasphotography.com/iret/09220844sg/images/deck.jpg</link>
+		<about>Deck</about>
+	</panorama>
+	
+	<panorama>
+		<title>Bath</title>
+		<link>http://www.ambientideasphotography.com/iret/09220844sg/images/bath.jpg</link>
+		<about>Master Bath</about>
+	</panorama>
+
+</portfolio>
