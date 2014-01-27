@@ -1,0 +1,90 @@
+<?xml version = '1.0'?>
+<panorama>
+
+	<parameters>
+	
+	panoName=images/living
+	zoomHome = 0.65
+
+	layer_2 = ../files/hotspots.swf
+	layer_1  = ../files/cylConverter.swf
+	layer_8  = ..files/menuFullscreen.sw
+	layer_15 = ../files/glassMeter.swf
+
+	panoType=cylinder
+
+
+
+	</parameters>
+
+
+	<hotspots>
+	
+	
+	<global LocalConnectionID="lc_test" onStart="external.autorotator.disabled=1" >
+
+
+
+
+	<spot id="controller" static="1" align="TL" salign="TL" depth="200" staticX="124" staticY="50"  url="controller.swf" blockMouse="1" 
+
+	onPress="pano.panKey=-2,500"
+	onRelease="pano.panKey=0"
+
+	/>
+	<spot id="bg" static="1" align="TL" salign="TL"  staticX="9" staticY="8"  url="../controls/circle.png"  
+
+	/>
+
+	<spot id="left" static="1" align="TL" salign="TL"  staticX="15" staticY="50"  url="../controls/left.png" blockMouse="1" 
+
+	onPress="pano.panKey=-2,500"
+	onRelease="pano.panKey=0"
+	
+	onOver="scale=1.1,600,elastic;depth+=100" onOut="scale=1,300;depth-=20"
+
+	/>
+
+	<spot id="right" static="1" align="TL" salign="TL" staticX="85" staticY="50"  url="../controls/right.png" blockMouse="1"
+
+	onPress="pano.panKey=2,500"
+	onRelease="pano.panKey=0"
+	
+	onOver="scale=1.1,600,elastic;depth+=100" onOut="scale=1,300;depth-=20"
+
+	/>
+
+	<spot id="down" static="1" align="TL" salign="TL" staticX="50" staticY="85"  url="../controls/down.png" blockMouse="1"
+
+	onPress="pano.tiltKey=-2,500"
+	onRelease="pano.tiltKey=0"
+	
+	onOver="scale=1.1,600,elastic;depth+=100" onOut="scale=1,300;depth-=20"
+
+	/>
+
+	<spot id="up" static="1" align="TL" salign="TL" staticX="50" staticY="15"  url="../controls/up.png" blockMouse="1"
+
+	onPress="pano.tiltKey=2,500"
+	onRelease="pano.tiltKey=0"
+	
+	onOver="scale=1.1,600,elastic;depth+=100" onOut="scale=1,300;depth-=20"
+
+	/>
+
+	<spot id="full" static="1" align="TL" salign="TL" staticX="50" staticY="50"  url="../controls/fullscreen.png" 
+
+	onClick="fullscreen(-)"
+	
+	onOver="scale=1.1,600,elastic;depth+=100" onOut="scale=1,300;depth-=20"
+
+	/>
+
+
+
+	</global>
+	</hotspots>
+
+</panorama>
+
+   
