@@ -1,0 +1,84 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+  border:0pt none;
+  font-family:inherit;
+  font-size:100%;
+  font-style:inherit;
+  font-weight:inherit;
+  margin:0pt;
+  padding:0pt;
+  vertical-align:baseline;
+}
+
+/* Styling */
+body {
+    margin:0;
+    padding:0px 20px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align:center;
+    color:#333;
+}
+
+#wrapper {
+    width: 700px;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+}
+
+.post {
+    text-align: left;
+}
+
+.post ul {
+    list-style-type: circle;
+}
+
+.post ul li,  .post ol li{
+    margin-left: 1.3em;
+}
+
+a:link {
+    color:#58a;
+    text-decoration:none;
+}
+a:visited {
+    color:#969;
+    text-decoration:none;
+}
+a:hover {
+    color:#c60;
+    text-decoration:underline;
+}
+
+h1, h2, h3, h4 {
+    margin:1.5em 0 .75em;
+    font: 12px Georgia, 'Times New Roman', serif;
+    letter-spacing:.2em;
+    color:#555;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.post {
+    margin:.5em 0 1.5em;
+    border-bottom:1px dotted #ccc;
+    padding-bottom:1.5em;
+}

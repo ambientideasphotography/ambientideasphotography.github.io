@@ -1,0 +1,79 @@
+BODY {
+	FONT-SIZE: 100%; FONT-FAMILY: Arial, sans-serif
+}
+TABLE.layout {
+	BORDER-TOP: #ff6600 10px solid; BORDER-BOTTOM: #ff6600 10px solid; BORDER-LEFT: #ff6600 10px solid; BORDER-RIGHT: #ff6600 10px solid
+}
+TD.body {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+TD.navigation {
+	FONT-SIZE: 75%; PADDING-RIGHT: 20px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 20px
+}
+TD.frame {
+	FONT-SIZE: 80%;
+	FONT-FAMILY: Arial, sans-serif;
+	border: 1px dashed #94999c;
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.orange {
+	color: #FF6600;
+}
+.subscript {
+	FONT-SIZE: 80%;
+	COLOR: #94999c;
+}
+.current {
+	FONT-WEIGHT: bold;
+	COLOR: #ff6600;
+}
+.small {
+	FONT-SIZE: 70%;
+}
+INPUT {
+	MARGIN: 5px 0px 0px 0px ;
+}
+A {
+	COLOR: #08628c
+}
+A:visited {
+	COLOR: #532371
+}
+A:hover {
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 180%; MARGIN: 0px 0px 1em; COLOR: #ff6600
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 140%; MARGIN: 1.75em 0px 0.5em; COLOR: #94999c
+}
+H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 140%; MARGIN: 0.5em 0px 0.5em; COLOR: #94999c
+}
+H4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 120%; MARGIN: 0.5em 0px 0.5em; COLOR: #323334
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em 35px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em 45px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px 0px 0.5em;
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 5px 0.5em; PADDING-TOP: 0px
+}
+LI UL {
+	MARGIN-TOP: 0.5em
+}
+LI OL {
+	MARGIN-TOP: 0.5em
+}
+UL UL {
+	MARGIN: 0.5em 20px 0.5em;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ambient Ideas Photography : Portfolios</title>
+<!-- InstanceEndEditable -->
+<link href="../stylesheets/web-standard.css" rel="stylesheet" type="text/css" />
+
+<!---Google API Hosted jQuery--->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="../javascript/jquery/jfeed/build/dist/jquery.jfeed.pack.js"></script>
+					<script type="text/javascript">
+					
+						$(document).ready(function(){
+							jQuery.getFeed({
+							  url: 'http://ambientideasphotography.com/blog/?feed=rss',
+							  success: function(feed) {
+							  
+								/*jQuery('#result').append('<h2>'
+								+ '<a href="'
+								+ feed.link
+								+ '">'
+								+ feed.title
+								+ '</a>'
+								+ '</h2>');*/
+								
+								var html = '';
+								
+								for(var i = 0; i < feed.items.length && i < 3; i++) {
+								
+								    var item = feed.items[i];
+								    
+								    html += '<h3>'
+								    + '<a href="'
+								    + item.link
+								    + '">'
+								    + item.title
+								    + '</a>'
+								    + '</h3>';
+								    
+								    html += '<div class="updated">'
+								    + item.updated
+								    + '</div>';
+								    
+								    html += '<div>'
+								    + item.description.substring(0,100)
+								    + '...'
+								    + '</div>';
+								    
+								    html += '<p>'
+								    + '<a href="'
+								    + item.link
+								    + '">'
+								    + 'Read More...'
+								    + '</a>'
+								    + '</p>';
+								}
+								
+								jQuery('#result').append(html);
+							  }    
+						    });
+						});
+					</script>
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div class="page">
+	
+	<div class="site-navigation">
+	
+		<!-- InstanceBeginEditable name="NavOnOff0" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/services/">
+					<div>Info</div>
+					<span>Our Services</span>
+				</a>
+		</div>
+	
+		<!-- InstanceBeginEditable name="NavOnOff1" --><div class="block on"><!-- InstanceEndEditable -->
+				<a href="/portfolios/">
+					<div>Portfolios</div>
+					<span>View my Work</span>
+				</a>
+		</div>
+		
+		<!-- InstanceBeginEditable name="NavOnOff2" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/blog/">
+					<div>Blog</div>
+					<span>Events and Tips</span>
+				</a>
+		</div>
+		
+		<!-- InstanceBeginEditable name="NavOnOff3" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/training/">
+					<div>Training</div>
+					<span>Join the Team</span>
+				</a>
+		</div>
+		
+		
+		
+		<a href="/index.html"><div class="logo"></div></a>
+	</div>
+	
+	<div class="columnLeft">
+	
+		<!-- InstanceBeginEditable name="Content Area" -->
+		
+		<div class="box">
+			
+			<div class="boxThumb">
+				<div class="thumbnail">
+					<a href="weddings.html">
+						<h1>Weddings</h1>
+						<img src="../images/boxPhoto/weddings.jpg" height="150" width="220" alt="" />
+						
+						<p>Photojournalism and artistic vision</p>
+					</a>					
+				</div>
+			</div>
+			
+			<div class="boxThumb">
+				<div class="thumbnail">
+					<a href="locations.html">
+						<h1>Locations</h1>
+						<img src="../images/boxPhoto/real-estate.jpg" height="150" width="220" alt="" />
+						
+						<p>Eye-catching showcases</p>
+					</a>					
+				</div>
+			</div>
+			
+			
+			<div class="clearer"></div>
+			
+			<div class="boxThumb">
+				<div class="thumbnail">
+					<a href="fine-art.html">
+						<h1>Fine Art</h1>
+						<img src="../images/boxPhoto/fine-art.jpg" height="150" width="220" alt="" />
+						
+						<p>Inspiring and decorative </p>
+					</a>					
+				</div>
+			</div>
+			
+			<div class="boxThumb">
+				<div class="thumbnail">
+					<a href="stock.html">
+						<h1>Stock</h1>
+						<img src="../images/boxPhoto/commercial.jpg" height="150" width="220" alt="" />
+						
+						<p>Marketing and advertising</p>
+					</a>					
+				</div>
+			</div>
+			
+			
+			<div class="clearer"></div>
+			
+		</div>
+			
+			
+			<!---
+			<div class="box boxPhoto">
+				<h1>Real Estate</h1>
+				
+				<div class="thumbnail">
+					<img src="../images/boxPhoto/real-estate.jpg" height="100" width="150" alt="" />
+				</div>
+				
+				<p>
+					Take a look at my photojournalism style and technique of capturing the moment. 
+				</p>
+				
+				<p><strong><a href="real-estate.html" class="real-estate">Launch Gallery</a></strong><br />
+				<strong><a href="http://ambientideasphotography.com/iret/07300945LR/" class="virtual-tour">Virtual Tour Sample 1</a></strong><br />
+				<strong><a href="http://ambientideasphotography.com/iret/100210791R/" class="virtual-tour">Virtual Tour Sample 2</a></strong><br />
+				<strong><a href="http://ambientideasphotography.com/iret/10012686LR/" class="virtual-tour">Virtual Tour Sample 3</a></strong>
+				</p>
+				
+				
+			</div>
+			--->
+			
+		
+		<!-- InstanceEndEditable -->
+
+	</div>
+	
+	
+	<div class="columnRight">	
+		<div class="boxIntro">
+				<h2>Get in Touch</h2>
+				<p>
+				+1 720-249-2766<br />
+				<a href="mailto:Info@AmbientIdeasPhotography.com">Info@AmbientIdeasPhotography.com</a><br />				
+				<a href="https://twitter.com/ambientphoto" target="_blank">Follow me on Twitter</a>
+				</p>
+			
+		</div>
+		
+		<div class="boxInfo">
+			
+			
+			<div class="">
+			
+				<h2><a href="/blog/">From the Blog</a></h2>
+
+				<div id="result" />
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="clearer"></div>
+
+<div class="footer">
+	<div class="copyright">Copyright &copy; 2010 Jordan McCullough &amp; Ambient Ideas Photography</div>
+</div>
+
+
+
+<!-- Google analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-90707-12");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

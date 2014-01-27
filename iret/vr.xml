@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portfolio>
+	<header>Immersive Tours</header>
+
+	<panorama>
+		<title>Front</title>
+		<link>http://www.ambientideasphotography.com/iret/070908S63L/images/front.jpg</link>
+		<about>Front yard and street view</about>
+	</panorama>
+
+	<panorama>
+		<title>Entry</title>
+		<link>http://www.ambientideasphotography.com/iret/070908S63L/images/entry.jpg</link>
+		<about>Entry and main living space</about>
+	</panorama>
+
+	<panorama>
+		<title>Dining</title>
+		<link>http://www.ambientideasphotography.com/iret/070908S63L/images/dining.jpg</link>
+		<about>Dining Room</about>
+	</panorama>
+	
+	<panorama>
+		<title>Kichen</title>
+		<link>http://www.ambientideasphotography.com/iret/070908S63L/images/kitchen.jpg</link>
+		<about>Kitchen</about>
+	</panorama>
+	
+	<panorama>
+	<title>Master Bed</title>
+	<link>http://www.ambientideasphotography.com/iret/070908S63L/images/bed.jpg</link>
+	<about>Master Bed</about>
+</panorama>
+
+<panorama>
+	<title>Bath</title>
+	<link>http://www.ambientideasphotography.com/iret/070908S63L/images/bath.jpg</link>
+	<about>Main floor bath</about>
+</panorama>
+
+
+
+<panorama>
+	<title>Nursury</title>
+	<link>http://www.ambientideasphotography.com/iret/070908S63L/images/nursury.jpg</link>
+	<about>Nursury / Guest Bed</about>
+</panorama>
+
+<panorama>
+	<title>Backyard</title>
+	<link>http://www.ambientideasphotography.com/iret/070908S63L/images/back.jpg</link>
+	<about>Backyard</about>
+</panorama>
+
+</portfolio>

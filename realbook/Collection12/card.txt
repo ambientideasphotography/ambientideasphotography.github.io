@@ -1,0 +1,7 @@
+information=
+<b>Builder:</b> Camden Creek
+<b>Architect:</b> Studio Gunn
+<b>Year:</b> 2007
+<b>Sq.Ft.:</b> 6532
+<b>Beds:</b> 5
+<b>Baths:</b> 7

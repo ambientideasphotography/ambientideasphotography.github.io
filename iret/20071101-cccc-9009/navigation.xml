@@ -1,0 +1,90 @@
+<?xml version = '1.0'?>
+<panorama>
+	<parameters>
+
+	panoName = images/front
+	zoomHome = 0.7
+
+	layer_2 = ../files/hotspots.swf
+	layer_5 = ../files/autorotator.swf
+	layer_10 = ../files/glassMeter.swf
+
+	</parameters>
+
+	<autorotator>
+	speed = 0.04
+	interval = 30
+	pause = 2000
+	quality = low
+	</autorotator>
+
+	<hotspots>
+	
+	
+	<global LocalConnectionID="lc_test" onStart="external.autorotator.disabled=1" onOver="" onOut="scale=1,300;depth-=20" >
+
+
+		<!---><spot id="cap" pan="0" tilt="-90" url="../images/cap.png" scaleable="0" smoothing="1" />--->
+
+
+	<spot id="controller" static="1" salign="TC" staticX="-190" staticY="50"  url="controller.swf" blockMouse="1" 
+
+	onPress="pano.panKey=-2,500"
+	onRelease="pano.panKey=0"
+
+	/>
+
+	<spot id="left" static="1" salign="TC" staticX="-90" staticY="50"  url="../images/black_l.png" blockMouse="1" 
+
+	onPress="pano.panKey=-2,500"
+	onRelease="pano.panKey=0"
+
+	/>
+
+	<spot id="right" static="1" salign="TC" staticX="-45" staticY="50"  url="../images/black_r.png" blockMouse="1"
+
+	onPress="pano.panKey=2,500"
+	onRelease="pano.panKey=0"
+
+	/>
+
+	<spot id="down" static="1" salign="TC" staticX="0" staticY="50"  url="../images/black_d.png" blockMouse="1"
+
+	onPress="pano.tiltKey=-2,500"
+	onRelease="pano.tiltKey=0"
+
+	/>
+
+	<spot id="up" static="1" salign="TC" staticX="45" staticY="50"  url="../images/black_u.png" blockMouse="1"
+
+	onPress="pano.tiltKey=2,500"
+	onRelease="pano.tiltKey=0"
+
+	/>
+
+	<spot id="zoomOut" static="1" salign="TC" staticX="90" staticY="50"  url="../images/black_m.png" blockMouse="1"
+
+	onPress="pano.zoomKey=-2,500"
+	onRelease="pano.zoomKey=0"
+
+	/>
+
+	<spot id="zoomIn" static="1" salign="TC" staticX="135" staticY="50"  url="../images/black_p.png" blockMouse="1"
+
+	onPress="pano.zoomKey=2,500"
+	onRelease="pano.zoomKey=0"
+
+	/>
+
+	<spot id="full" static="1" salign="TC" staticX="180" staticY="50"  url="../images/black_f.png" 
+
+	onClick="fullscreen(-)"
+
+	/>
+
+
+
+	</global>
+	</hotspots>
+
+</panorama>

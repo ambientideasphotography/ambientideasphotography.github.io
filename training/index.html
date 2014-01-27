@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ambient Ideas Photography : Training</title>
+<!-- InstanceEndEditable -->
+<link href="../stylesheets/web-standard.css" rel="stylesheet" type="text/css" />
+
+<!---Google API Hosted jQuery--->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="../javascript/jquery/jfeed/build/dist/jquery.jfeed.pack.js"></script>
+					<script type="text/javascript">
+					
+						$(document).ready(function(){
+							jQuery.getFeed({
+							  url: 'http://ambientideasphotography.com/blog/?feed=rss',
+							  success: function(feed) {
+							  
+								/*jQuery('#result').append('<h2>'
+								+ '<a href="'
+								+ feed.link
+								+ '">'
+								+ feed.title
+								+ '</a>'
+								+ '</h2>');*/
+								
+								var html = '';
+								
+								for(var i = 0; i < feed.items.length && i < 3; i++) {
+								
+								    var item = feed.items[i];
+								    
+								    html += '<h3>'
+								    + '<a href="'
+								    + item.link
+								    + '">'
+								    + item.title
+								    + '</a>'
+								    + '</h3>';
+								    
+								    html += '<div class="updated">'
+								    + item.updated
+								    + '</div>';
+								    
+								    html += '<div>'
+								    + item.description.substring(0,100)
+								    + '...'
+								    + '</div>';
+								    
+								    html += '<p>'
+								    + '<a href="'
+								    + item.link
+								    + '">'
+								    + 'Read More...'
+								    + '</a>'
+								    + '</p>';
+								}
+								
+								jQuery('#result').append(html);
+							  }    
+						    });
+						});
+					</script>
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div class="page">
+	
+	<div class="site-navigation">
+	
+		<!-- InstanceBeginEditable name="NavOnOff0" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/services/">
+					<div>Info</div>
+					<span>Our Services</span>
+				</a>
+		</div>
+	
+		<!-- InstanceBeginEditable name="NavOnOff1" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/portfolios/">
+					<div>Portfolios</div>
+					<span>View my Work</span>
+				</a>
+		</div>
+		
+		<!-- InstanceBeginEditable name="NavOnOff2" --><div class="block off"><!-- InstanceEndEditable -->
+				<a href="/blog/">
+					<div>Blog</div>
+					<span>Events and Tips</span>
+				</a>
+		</div>
+		
+		<!-- InstanceBeginEditable name="NavOnOff3" --><div class="block on"><!-- InstanceEndEditable -->
+				<a href="/training/">
+					<div>Training</div>
+					<span>Join the Team</span>
+				</a>
+		</div>
+		
+		
+		
+		<a href="/index.html"><div class="logo"></div></a>
+	</div>
+	
+	<div class="columnLeft">
+	
+		<!-- InstanceBeginEditable name="Content Area" -->
+		
+			
+			
+		
+			
+	
+			<div class="box">
+				
+				<h1>Presentations</h1>
+				
+				<p>
+					As a way to giving back to the photographic community and sharing knowledge of real-world photographic experience, I'm often found giving presentations. I am currently involved in working with the <a href="http://www.hrphotoclub.com" target="_blank">Highlands Ranch Photo Club.</a>
+				</p>
+				
+				<p>
+					For the latest events and  presentations, be sure to check the <a href="/blog/">Blog</a> for all the latest news.
+				</p>
+				
+				<h1>Mentorship</h1>
+				
+				<p>
+					Looking to get hands-on and involved with a professional photo shoot? If you have the determination and ambition to learn new photographic skills, submit your portfolio for evaluation. If you're selected, you may be invited to join the photographer Jordan McCullough on a photo shoot as an assistant and support photographer.
+				</p>
+				
+			</div>
+		
+		<!-- InstanceEndEditable -->
+
+	</div>
+	
+	
+	<div class="columnRight">	
+		<div class="boxIntro">
+				<h2>Get in Touch</h2>
+				<p>
+				+1 720-249-2766<br />
+				<a href="mailto:Info@AmbientIdeasPhotography.com">Info@AmbientIdeasPhotography.com</a><br />				
+				<a href="https://twitter.com/ambientphoto" target="_blank">Follow me on Twitter</a>
+				</p>
+			
+		</div>
+		
+		<div class="boxInfo">
+			
+			
+			<div class="">
+			
+				<h2><a href="/blog/">From the Blog</a></h2>
+
+				<div id="result" />
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="clearer"></div>
+
+<div class="footer">
+	<div class="copyright">Copyright &copy; 2010 Jordan McCullough &amp; Ambient Ideas Photography</div>
+</div>
+
+
+
+<!-- Google analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-90707-12");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

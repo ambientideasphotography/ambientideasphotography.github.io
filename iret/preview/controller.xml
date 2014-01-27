@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<panorama>
+	<parameters>
+
+	
+	loaderText =
+	panoName = images/entrance
+	zoomHome = 0.7
+
+	layer_2 = files/hotspots.swf
+	layer_10 = glassMeter.swf
+	
+	</parameters>
+
+	<hotspots>
+
+	<global LocalConnectionID="lc_test" >
+
+	<spot static="1" salign="RT" align="RT" staticX="-3" staticY="3"  url="files/controller.swf" alpha="1.5" depth="20" />
+	
+	<spot id="full" static="1" salign="LT" align="LT" staticX="3" staticY="3"  url="images/black_f.png" onClick="fullscreen(-)"
+
+	/>
+
+	</global>
+	</hotspots>
+
+</panorama>

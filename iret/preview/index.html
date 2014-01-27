@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Example</title>
+<style type="text/css">
+<!--
+/* hide from ie5 mac \*/
+html {
+  height: 100%;
+  overflow: hidden;
+}
+#flashcontent {
+  height: 100%;
+}
+/* end hide */
+#flashcontent {
+  color: #fff
+}
+#flashcontent a {
+  color: #f60;
+}
+#flashcontent a:hover {
+  color: #06f;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #CCCCCC;
+}
+-->
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+		
+		<script type="text/javascript" src="files/swfobject.js"></script>		
+		<div id="flashcontent">This content requires <a href="http://www.adobe.com/go/getflashplayer/">Adobe Flash Player</a> and a browser with JavaScript enabled.<br />Built on <a href="http://flashpanoramas.com/player/">Flash Panorama Player</a>.</div> 
+		    <script type="text/javascript">
+			  var so = new SWFObject("files/pano.swf", "pano", "100%", "100%", "9", "#282828"); 
+			  so.addVariable("xml_file","controller.xml");
+			  so.addParam("allowFullScreen","true");
+			  so.addParam("allowScriptAccess","sameDomain");
+			  so.write("flashcontent");
+		    </script>
+		</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+html {
+ /* height: 100%;*/
+  overflow: hidden;
+}
+#flashcontent {
+ /* margin-top:70px;*/
+  height: 90%;
+}
+/* end hide */
+#flashcontent {
+  color: #fff;
+  padding-top:57px;
+  position:absolute;
+  width:100%;
+  height:90%;
+  
+}
+#flashcontent a {
+  color: #000000;
+}
+#flashcontent a:hover {
+  color: #000000;
+}
+
+
+.iretGallery{
+	padding-top:56px;
+	width:100%;
+	/*background-image: url(gallery.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;*/
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+	background-color: #c1c1c1;
+	background-image: url(background.jpg);
+	background-repeat: repeat-x;
+	
+	/*height: 100%;*/
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	border-bottom: solid 1px  #666666;
+	width:100%;
+	height:54px;
+	min-height:56px;
+	
+	position:absolute;
+	
+	z-index:1000;
+	
+	
+	background-color: #c1c1c1;
+	background-image: url(background.jpg);
+	background-repeat: repeat-x;
+	
+}
+
+.header{
+	height:42px;
+	
+	padding-top:13px;
+	padding-left:10px;
+	padding-right: 10px;
+	border-bottom: solid 1px #CCCCCC;
+	
+}
+
+.address{
+	float: left;
+	height: 21px;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 12px;
+    padding: 5px 0 5px 5px;/**/
+}
+
+
+/*Sexy button*/
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+	background: transparent url('button.gif') no-repeat scroll top left;
+	color: #000000;
+	font-weight:normal;
+	display: block;
+	float: right;
+	height: 21px;
+	width:116px;
+	margin-right: 6px;
+	margin-top:5px;
+	padding-right: 18px; /* sliding doors padding */
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+a.button span {
+	background: transparent url('button_on.gif') no-repeat;
+	display: block;
+	line-height: 12px;
+	padding: 5px 0 5px 21px;
+}
+
+a.button:active {
+    background-position: top left;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: top left;
+    /*padding: 6px 0 4px 18px;  push text down 1px */
+}
+
+a.button:hover {
+    background-position: bottom left;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:hover span {
+    background-position: center left;
+}

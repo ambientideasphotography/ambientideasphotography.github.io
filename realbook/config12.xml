@@ -1,0 +1,49 @@
+<FlippingBook>
+<width>700</width>
+<height>440</height>
+<scaleContent>true</scaleContent>
+<firstPage>0</firstPage>
+
+<alwaysOpened>false</alwaysOpened>
+<autoFlip> 250 </autoFlip>
+<flipOnClick> true </flipOnClick>
+<staticShadowsDepth> 1 </staticShadowsDepth>
+<dynamicShadowsDepth> 2 </dynamicShadowsDepth>
+<moveSpeed> 2 </moveSpeed>
+<closeSpeed> 3 </closeSpeed>
+<gotoSpeed> 3 </gotoSpeed>
+<flipSound>../sounds/03.mp3</flipSound>
+<pageBack> 0f0f0f </pageBack>
+<loadOnDemand> true </loadOnDemand>
+<cachePages> true </cachePages>
+<cacheSize> 4 </cacheSize>
+<preloaderType> Progress Bar </preloaderType>
+<userPreloaderId></userPreloaderId>
+
+<pages>
+	<page>pages/cover.jpg</page>
+		<page>pages/01.jpg</page>
+		<page>pages/01r.jpg</page>
+		<page>pages/02.jpg</page>
+		<page>pages/02r.jpg</page>
+		<page>pages/03.jpg</page>
+		<page>pages/03r.jpg</page>
+		<page>pages/04.jpg</page>
+		<page>pages/04r.jpg</page>
+		<page>pages/05.jpg</page>
+		<page>pages/05r.jpg</page>
+		<page>pages/06.jpg</page>
+		<page>pages/06r.jpg</page>
+		<page>pages/07.jpg</page>
+		<page>pages/07r.jpg</page>
+		<page>pages/09.jpg</page>
+		<page>pages/09r.jpg</page>
+		<page>pages/10.jpg</page>
+		<page>pages/10r.jpg</page>
+		<page>pages/11.jpg</page>
+		<page>pages/11r.jpg</page>
+		<page>pages/12.jpg</page>
+		<page>pages/12r.jpg</page>
+	<page>pages/back.jpg</page>
+</pages>
+</FlippingBook>

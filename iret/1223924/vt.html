@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Ambient Ideas Photography - Immersive Real Estate Tours</title>
+<link href="../standard.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="header">
+		<a class="button" href="vt.html"><span>Virtual Tour</span></a>
+		<a class="button" href="index.html"><span>Photo Gallery</span></a>
+		
+		<span class="address">
+			5703 Secrest Ct.<br>
+			Golden, CO 80403
+		</span>
+	</div>
+</div>
+
+<script type="text/javascript" src="../files/swfobject.js"></script>		
+<div id="flashcontent">This <em>Immersive Real Estate Tour</em> requires <a href="http://www.adobe.com/go/getflashplayer/">Adobe Flash Player</a> and a browser with JavaScript enabled.</div>
+    <script type="text/javascript">
+	  var so = new SWFObject("../files/show_pano.swf", "pano", "100%", "100%", "6.0.65", "#282828"); 
+	  so.addVariable("movie", "../files/pano.swf?xml_file=index.xml");
+	  so.addVariable("redirect", window.location);
+	  so.addParam("allowFullScreen","true");
+	  so.addParam("allowScriptAccess","sameDomain");
+	  so.write("flashcontent");
+    </script>
+</body>
+</html>
